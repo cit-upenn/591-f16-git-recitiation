@@ -11,7 +11,7 @@ public class NameTester {
 				name.getSuffixProfessional());
 
 
-		//add  new comment, I am a collaborator Jiahui
+		//add  new comment, I am a collaborator 
 	
 	}
 }
