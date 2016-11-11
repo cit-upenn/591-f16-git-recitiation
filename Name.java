@@ -5,6 +5,8 @@
  */
 public class Name {
 	
+	private String title;
+	private String surname;
 	private String first;
 	private String middle;
 	private String paternal;
@@ -22,14 +24,14 @@ public class Name {
 		this.paternal = paternal;
 		this.maternal = maternal;
 		suffixGenerational = generational;
-		suffixProfessional = professional
+		suffixProfessional = professional;
 	}
 
 	public String getTitle() {
 		return null;
 	}
 
-	public int getValue() {
+	public String getValue() {
 		return null;	
 	}
 
@@ -108,3 +110,4 @@ public class Name {
 	public boolean isFriday(String day){
 		return false;
 	}
+}
