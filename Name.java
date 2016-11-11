@@ -5,8 +5,10 @@
  */
 public class Name {
 	
+	private String title;
 	private String first;
 	private String middle;
+	private String surname;
 	private String paternal;
 	private String maternal;
 	private String suffixGenerational;
@@ -24,7 +26,7 @@ public class Name {
 		this.paternal = paternal;
 		this.maternal = maternal;
 		suffixGenerational = generational;
-		suffixProfessional = professional
+		suffixProfessional = professional;
 	}
 
 	public String getTitle() {
