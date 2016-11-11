@@ -12,6 +12,8 @@ public class Name {
 	private String suffixGenerational;
 	private String suffixProfessional;
 	private String suffixInAnotherLanguage;;
+	private String newEdition; 
+	
 
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
 			String generational, String professional) {
