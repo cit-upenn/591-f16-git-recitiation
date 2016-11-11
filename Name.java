@@ -26,7 +26,7 @@ public class Name {
 	}
 
 	public String getTitle() {
-		return null;
+		return title;
 	}
 
 	public int getValue() {
@@ -34,23 +34,23 @@ public class Name {
 	}
 
 	public String getFirst() {
-		return null;
+		return first;
 	}
 
 	public String getMiddle() {
-		return null;
+		return middle;
 	}
 
 	public String getSurname() {
-		return null;
+		return surname;
 	}
 
 	public String getPaternal() {
-		return null;
+		return paternal;
 	}
 
 	public String getMaternal() {
-		return null;
+		return maternal;
 	}
 
 	public String getSuffixProfessional() {
@@ -58,7 +58,7 @@ public class Name {
 	}
 
 	public String getSuffixGenerational() {
-		return null;
+		return generational;
 	}
 
 	public String getNameAllCaps() {
