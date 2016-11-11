@@ -35,7 +35,7 @@
 2. Notify your instructor and wait until your s/he adds you as a collaborator
 3. Collaborate on the file and make changes
     1. Clone the repository locally
-    2. Make the changes
+    2. Make the changes (any change)
     3. Commit your changes
     4. Push your changes --- You may have to pull other teams' changes and
        resolve conflicts one or more times before you can successfully push your
