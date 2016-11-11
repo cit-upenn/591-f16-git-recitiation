@@ -87,6 +87,10 @@ public class Name {
 	public boolean matchesTAsFirstName() {
 		return false; 
 	}
+    
+    public void hello(){
+        System.out.println("hello there")
+    }
 	
 	/*
 	 * Checks if input string matches first name
