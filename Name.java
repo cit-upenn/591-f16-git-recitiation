@@ -38,9 +38,20 @@ public class Name {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public String obiWasHere(){
 		return null; 
 	}
+=======
+
+	public int getValue() {
+		return null;
+	}
+
+	public String getTitle() {
+		return title;
+=======
+>>>>>>> d1e96058f1136a48a8cbc53286ce7e25a185963a
 	public String getTitle() {
 		return null;
 	}
@@ -60,7 +71,12 @@ public class Name {
 		return 0;	
 >>>>>>> 1aa2cd6068929c805f5a2aa81cb4c38ff214f520
 	}
-
+/*
+	public int getValue() {
+		return null;	
+	}
+*/
+	
 	public String getFirst() {
 		return null;
 	}
@@ -70,7 +86,11 @@ public class Name {
 		return null;
 =======
 		return middle;
+<<<<<<< HEAD
 >>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
+=======
+
+>>>>>>> d1e96058f1136a48a8cbc53286ce7e25a185963a
 	}
 
 	public String getSurname() {
@@ -78,23 +98,23 @@ public class Name {
 	}
 
 	public String getPaternal() {
-		return null;
+		return paternal;
 	}
 
 	public String getMaternal() {
-		return null;
+		return maternal;
 	}
 
 	public String getSuffixProfessional() {
-		return null;
+		return suffixProfessional;
 	}
 
 	public String getSuffixGenerational() {
-		return null;
+		return suffixGenerational;
 	}
 
 	public String getNameAllCaps() {
-		return null;
+		return allCaps;
 	}
 
 	/*
@@ -102,7 +122,9 @@ public class Name {
 	 * e.g., Jim Paper Halpert
 	 */
 	public String concatFirstMiddleLast() {
-		return null;
+		first.
+	}
+		return ;
 	}
 
 	/*
