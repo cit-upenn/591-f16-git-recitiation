@@ -8,11 +8,6 @@ public class Name {
 	private String first;
 	private String middle;
 	private String paternal;
-	private String maternal;
-	private String suffixGenerational;
-	private String suffixProfessional;
-	private String suffixInAnotherLanguage;;
-
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
 			String generational, String professional) {
 		this.title = title;
