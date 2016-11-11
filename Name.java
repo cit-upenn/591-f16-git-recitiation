@@ -5,6 +5,7 @@
  */
 public class Name {
 	
+	private String title;
 	private String first;
 	private String middle;
 	private String paternal;
@@ -26,43 +27,44 @@ public class Name {
 	}
 
 	public String getTitle() {
-		return null;
+		return title;
 	}
-
+/*
 	public int getValue() {
 		return null;	
 	}
-
+*/
+	
 	public String getFirst() {
-		return null;
+		return first;
 	}
 
 	public String getMiddle() {
-		return null;
+		return middle;
 	}
 
 	public String getSurname() {
-		return null;
+		return surname;
 	}
 
 	public String getPaternal() {
-		return null;
+		return paternal;
 	}
 
 	public String getMaternal() {
-		return null;
+		return maternal;
 	}
 
 	public String getSuffixProfessional() {
-		return null;
+		return suffixProfessional;
 	}
 
 	public String getSuffixGenerational() {
-		return null;
+		return suffixGenerational;
 	}
 
 	public String getNameAllCaps() {
-		return null;
+		return allCaps;
 	}
 	
 	/*
@@ -70,7 +72,9 @@ public class Name {
 	 * e.g., Jim Paper Halpert
 	 */
 	public String concatFirstMiddleLast() {
-		return null;
+		first.
+	}
+		return ;
 	}
 	
 	/*
