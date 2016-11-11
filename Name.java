@@ -5,8 +5,9 @@
  */
 public class Name {
 	
+
 	private String title;
-	private String first;
+	private String firstName;
 	private String middle;
 	private String surname;
 	private String paternal;
@@ -29,6 +30,11 @@ public class Name {
 		suffixProfessional = professional;
 	}
 
+
+	public int getValue() {
+		return null;
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -43,7 +49,9 @@ public class Name {
 	}
 
 	public String getMiddle() {
+
 		return middle;
+
 	}
 
 	public String getSurname() {
