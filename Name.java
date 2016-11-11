@@ -29,8 +29,15 @@ public class Name {
 		suffixProfessional = professional;
 	}
 
+<<<<<<< HEAD
+
+
+	public int getValue() {
+		return null;	
+=======
 	public String getTitle() {
 		return title;
+>>>>>>> fe3cff1cc5482f791b593e5cfd08a1ef1775badf
 	}
 
 	public String getFirst() {
