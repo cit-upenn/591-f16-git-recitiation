@@ -49,8 +49,16 @@ public class Name {
 		return null;	
 =======
 	public String getTitle() {
+<<<<<<< HEAD
 		return title;
 >>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
+=======
+		return null;
+	}
+
+	public int getValue() {
+		return 0;	
+>>>>>>> 1aa2cd6068929c805f5a2aa81cb4c38ff214f520
 	}
 
 	public String getFirst() {
