@@ -46,7 +46,7 @@
     3. What could you do differently to improve your process next time?
 
 ## Class Discussion
-
+1. Ignore this, just trying out things. 
 [10 min]
 
 ---------
@@ -61,4 +61,3 @@
   rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
   Commons Attribution-ShareAlike 4.0 International License</a>.
 </footer>
-
