@@ -41,15 +41,15 @@ public class Name {
 	}
 
 	public String getFirst() {
-		return null;
+		return first;
 	}
 
 	public String getMiddle() {
-		return null;
+		return midlle;
 	}
 
 	public String getSurname() {
-		return null;
+		return surname;
 	}
 
 	public String getPaternal() {
