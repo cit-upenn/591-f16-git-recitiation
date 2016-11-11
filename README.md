@@ -3,6 +3,7 @@
 # GitHub Workflow Activity
 
 ## Goals
+So many merge conflicts!
 
 1. Gain some practical use of working with git/github
 2. Understand the basic developer workflow
@@ -41,7 +42,7 @@
        resolve conflicts one or more times before you can successfully push your
        changes
 4. Review with your team
-    1. What worked?
+    1. What worked? 
     2. What didn't work and why?
     3. What could you do differently to improve your process next time?
 
