@@ -4,7 +4,6 @@
  *
  */
 public class Name {
-	
 
 	private String title;
 	private String firstName;
@@ -15,8 +14,8 @@ public class Name {
 	private String suffixGenerational;
 	private String suffixProfessional;
 	private String suffixInAnotherLanguage;;
-	private String newEdition; 
-	
+	private String newEdition;
+
 
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
 			String generational, String professional) {
@@ -30,6 +29,7 @@ public class Name {
 		suffixProfessional = professional;
 	}
 
+<<<<<<< HEAD
 
 	public int getValue() {
 		return null;
@@ -37,6 +37,14 @@ public class Name {
 
 	public String getTitle() {
 		return title;
+=======
+	public String getTitle() {
+		return null;
+	}
+
+	public int getValue() {
+		return 0;	
+>>>>>>> 1aa2cd6068929c805f5a2aa81cb4c38ff214f520
 	}
 /*
 	public int getValue() {
@@ -49,7 +57,6 @@ public class Name {
 	}
 
 	public String getMiddle() {
-
 		return middle;
 
 	}
@@ -77,7 +84,7 @@ public class Name {
 	public String getNameAllCaps() {
 		return allCaps;
 	}
-	
+
 	/*
 	 * Return a string that combines the first middle and last names.
 	 * e.g., Jim Paper Halpert
@@ -87,7 +94,7 @@ public class Name {
 	}
 		return ;
 	}
-	
+
 	/*
 	 * Come up with your own meaningful string representation of this Name.
 	 */
@@ -95,32 +102,32 @@ public class Name {
 	public String toString() {
 		return null;
 	}
-	
+
 	/*
 	 * Checks whether first name matches any of your TAs' first name.
 	 */
 	public boolean matchesTAsFirstName() {
-		return false; 
+		return false;
 	}
-    
+
     public void hello(){
         System.out.println("hello there")
     }
-	
+
 	/*
 	 * Checks if input string matches first name
 	 */
 	public boolean matchesFirstName(String s) {
 		return false;
 	}
-	
+
 	/*
 	 * Checks whether the two surnames match
 	 */
 	public boolean isRelativeOf(Name name) {
 		return false;
 	}
-	
+
 	/*
 	 * Checks if it Friday
 	 */
