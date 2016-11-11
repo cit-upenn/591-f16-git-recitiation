@@ -51,8 +51,13 @@ public class Name {
 	public String getTitle() {
 
 		return title;
+	}
 
-		return null;
+	public String getValue() {
+		return null;	
+
+		return title;
+
 	}
 
 	public int getValue() {
@@ -150,3 +155,5 @@ public class Name {
 	public boolean isFriday(String day){
 		return false;
 	}
+	
+}
