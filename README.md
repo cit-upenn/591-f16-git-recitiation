@@ -1,5 +1,5 @@
-# github-basics
-
+# github-basics!
+!
 # GitHub Workflow Activity
 
 ## Goals
@@ -13,14 +13,14 @@
 
 - Facilitator
     - Read instructions
-    - Record key insights for team
+ !!   - Record key insights for team
 - Technician --- Carry out operations on the teams behalf
 
 ## Prepare
 [5-10 minutes]
 
 - Facilitator
-    - Take notes using paper/app
+   ! - Take notes using paper/app
     - Help other team members troubleshoot
 - Technician
     - Make sure you have git installed
@@ -32,7 +32,7 @@
 [10-20 min]
 
 1. _Watch_ this repository (find the "watch" button in upper right)
-2. Notify your instructor and wait until your s/he adds you as a collaborator
+2. N!otify your instructor and wait until your s/he adds you as a collaborator
 3. Collaborate on the file and make changes
     1. Clone the repository locally
     2. Make the changes (any change)
@@ -45,7 +45,7 @@
     2. What didn't work and why?
     3. What could you do differently to improve your process next time?
 
-## Class Discussion
+## Cl!ass Discussion
 1. Ignore this, just trying out things. 
 [10 min]
 
