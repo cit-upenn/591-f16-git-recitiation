@@ -29,9 +29,7 @@ public class Name {
 		suffixProfessional = professional;
 	}
 
-	public String getTitle() {
-		return null;
-	}
+
 
 	public int getValue() {
 		return null;	
