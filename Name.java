@@ -4,25 +4,18 @@
  *
  */
 public class Name {
-<<<<<<< HEAD
 	
 	private String first;
-=======
-
 	private String title;
 	private String firstName;
->>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
 	private String middle;
 	private String paternal;
 	private String maternal;
 	private String suffixGenerational;
 	private String suffixProfessional;
 	private String suffixInAnotherLanguage;;
-<<<<<<< HEAD
 	private String newEdition; 
-=======
 	private String newEdition;
->>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
 
 
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
@@ -37,12 +30,9 @@ public class Name {
 		suffixProfessional = professional
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	public String obiWasHere(){
 		return null; 
 	}
-=======
 
 	public int getValue() {
 		return null;
@@ -50,26 +40,24 @@ public class Name {
 
 	public String getTitle() {
 		return title;
-=======
->>>>>>> d1e96058f1136a48a8cbc53286ce7e25a185963a
+	}	
 	public String getTitle() {
 		return title;
 	}
 
 	public int getValue() {
 		return null;	
-=======
+
 	public String getTitle() {
-<<<<<<< HEAD
+
 		return title;
->>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
-=======
+
 		return null;
 	}
 
 	public int getValue() {
 		return 0;	
->>>>>>> 1aa2cd6068929c805f5a2aa81cb4c38ff214f520
+
 	}
 /*
 	public int getValue() {
@@ -82,15 +70,11 @@ public class Name {
 	}
 
 	public String getMiddle() {
-<<<<<<< HEAD
-		return null;
-=======
-		return middle;
-<<<<<<< HEAD
->>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
-=======
 
->>>>>>> d1e96058f1136a48a8cbc53286ce7e25a185963a
+		return null;
+
+		return middle;
+
 	}
 
 	public String getSurname() {
@@ -141,15 +125,11 @@ public class Name {
 	public boolean matchesTAsFirstName() {
 		return false;
 	}
-<<<<<<< HEAD
-	
-=======
 
     public void hello(){
         System.out.println("hello there")
     }
 
->>>>>>> 0e0ae4582aeacf991f26cb41d4d8b5e99e554b00
 	/*
 	 * Checks if input string matches first name
 	 */
