@@ -32,8 +32,13 @@ public class Name {
 		suffixProfessional = professional;
 	}
 
+<<<<<<< HEAD
+	public String getTitle() {
+		return title;
+=======
 	public String obiWasHere(){
 		return null; 
+>>>>>>> c8cf5394b650ff73cb42bef04f4e0a2afc109764
 	}
 
 	public int getValue() {
@@ -73,19 +78,23 @@ public class Name {
 */
 	
 	public String getFirst() {
-		return null;
+		return first;
 	}
 
 	public String getMiddle() {
+<<<<<<< HEAD
+		return middle;
+=======
 
 		return null;
 
 		return middle;
 
+>>>>>>> c8cf5394b650ff73cb42bef04f4e0a2afc109764
 	}
 
 	public String getSurname() {
-		return null;
+		return surname;
 	}
 
 	public String getPaternal() {
@@ -101,7 +110,11 @@ public class Name {
 	}
 
 	public String getSuffixGenerational() {
+<<<<<<< HEAD
+		return generational;
+=======
 		return suffixGenerational;
+>>>>>>> c8cf5394b650ff73cb42bef04f4e0a2afc109764
 	}
 
 	public String getNameAllCaps() {
@@ -121,7 +134,7 @@ public class Name {
 	/*
 	 * Come up with your own meaningful string representation of this Name.
 	 */
-	@Override
+	
 	public String toString() {
 		return null;
 	}
