@@ -4,9 +4,9 @@
  *
  */
 public class Name {
-	
+
 	private String title;
-	private String first;
+	private String firstName;
 	private String middle;
 	private String surname;
 	private String paternal;
@@ -14,6 +14,8 @@ public class Name {
 	private String suffixGenerational;
 	private String suffixProfessional;
 	private String suffixInAnotherLanguage;;
+	private String newEdition;
+
 
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
 			String generational, String professional) {
@@ -32,7 +34,7 @@ public class Name {
 	}
 
 	public int getValue() {
-		return null;	
+		return 0;	
 	}
 
 	public String getFirst() {
@@ -66,7 +68,7 @@ public class Name {
 	public String getNameAllCaps() {
 		return null;
 	}
-	
+
 	/*
 	 * Return a string that combines the first middle and last names.
 	 * e.g., Jim Paper Halpert
@@ -74,7 +76,7 @@ public class Name {
 	public String concatFirstMiddleLast() {
 		return null;
 	}
-	
+
 	/*
 	 * Come up with your own meaningful string representation of this Name.
 	 */
@@ -82,28 +84,32 @@ public class Name {
 	public String toString() {
 		return null;
 	}
-	
+
 	/*
 	 * Checks whether first name matches any of your TAs' first name.
 	 */
 	public boolean matchesTAsFirstName() {
-		return false; 
+		return false;
 	}
-	
+
+    public void hello(){
+        System.out.println("hello there")
+    }
+
 	/*
 	 * Checks if input string matches first name
 	 */
 	public boolean matchesFirstName(String s) {
 		return false;
 	}
-	
+
 	/*
 	 * Checks whether the two surnames match
 	 */
 	public boolean isRelativeOf(Name name) {
 		return false;
 	}
-	
+
 	/*
 	 * Checks if it Friday
 	 */
