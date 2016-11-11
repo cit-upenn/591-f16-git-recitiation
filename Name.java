@@ -5,7 +5,7 @@
  */
 public class Name {
 	
-	private String first;
+	private String firstName;
 	private String middle;
 	private String paternal;
 	private String maternal;
