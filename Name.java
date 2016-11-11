@@ -5,17 +5,15 @@
  */
 public class Name {
 	
-	private String title;
 	private String first;
 	private String middle;
-	private String surname;
 	private String paternal;
 	private String maternal;
 	private String suffixGenerational;
 	private String suffixProfessional;
 	private String suffixInAnotherLanguage;;
 	private String newEdition; 
-	
+
 
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
 			String generational, String professional) {
@@ -26,30 +24,30 @@ public class Name {
 		this.paternal = paternal;
 		this.maternal = maternal;
 		suffixGenerational = generational;
-		suffixProfessional = professional;
+		suffixProfessional = professional
 	}
 
-<<<<<<< HEAD
-
+	public String obiWasHere(){
+		return null; 
+	}
+	public String getTitle() {
+		return null;
+	}
 
 	public int getValue() {
 		return null;	
-=======
-	public String getTitle() {
-		return title;
->>>>>>> fe3cff1cc5482f791b593e5cfd08a1ef1775badf
 	}
 
 	public String getFirst() {
-		return first;
+		return null;
 	}
 
 	public String getMiddle() {
-		return midlle;
+		return null;
 	}
 
 	public String getSurname() {
-		return surname;
+		return null;
 	}
 
 	public String getPaternal() {
@@ -94,10 +92,6 @@ public class Name {
 	public boolean matchesTAsFirstName() {
 		return false; 
 	}
-    
-    public void hello(){
-        System.out.println("hello there")
-    }
 	
 	/*
 	 * Checks if input string matches first name
