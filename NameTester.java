@@ -9,6 +9,8 @@ public class NameTester {
 		System.out.printf("%s %s %s %s (formerly %s), %s %s, %s\n", name.getTitle(), name.getFirst(), name.getMiddle(),
 				name.getSurname(), name.getMaternal(), name.getPaternal(), name.getSuffixGenerational(),
 				name.getSuffixProfessional());
+
+		//add  new comment, I am a collaborator Jiahui
 	
 	}
 }
