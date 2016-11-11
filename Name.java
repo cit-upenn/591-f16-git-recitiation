@@ -5,17 +5,18 @@
  */
 public class Name {
 	
-	private String title;
 	private String first;
+	private String title;
+	private String firstName;
 	private String middle;
-	private String surname;
 	private String paternal;
 	private String maternal;
 	private String suffixGenerational;
 	private String suffixProfessional;
 	private String suffixInAnotherLanguage;;
 	private String newEdition; 
-	
+	private String newEdition;
+
 
 	public Name(String title, String first, String middle, String surname, String paternal, String maternal,
 			String generational, String professional) {
@@ -26,61 +27,95 @@ public class Name {
 		this.paternal = paternal;
 		this.maternal = maternal;
 		suffixGenerational = generational;
-		suffixProfessional = professional;
+		suffixProfessional = professional
+	}
+
+	public String obiWasHere(){
+		return null; 
+	}
+
+	public int getValue() {
+		return null;
 	}
 
 	public String getTitle() {
-<<<<<<< HEAD
-		return null;
+		return title;
+	}	
+	public String getTitle() {
+		return title;
+	}
+
+	public int getValue() {
+		return null;	
+
+	public String getTitle() {
+
+		return title;
 	}
 
 	public String getValue() {
 		return null;	
-=======
+
 		return title;
->>>>>>> 7e00480cbff1e5b9d13cbc3840804114bde18c41
+
 	}
 
+	public int getValue() {
+		return 0;	
+
+	}
+/*
+	public int getValue() {
+		return null;	
+	}
+*/
+	
 	public String getFirst() {
-		return first;
+		return null;
 	}
 
 	public String getMiddle() {
-		return midlle;
+
+		return null;
+
+		return middle;
+
 	}
 
 	public String getSurname() {
-		return surname;
+		return null;
 	}
 
 	public String getPaternal() {
-		return null;
+		return paternal;
 	}
 
 	public String getMaternal() {
-		return null;
+		return maternal;
 	}
 
 	public String getSuffixProfessional() {
-		return null;
+		return suffixProfessional;
 	}
 
 	public String getSuffixGenerational() {
-		return null;
+		return suffixGenerational;
 	}
 
 	public String getNameAllCaps() {
-		return null;
+		return allCaps;
 	}
-	
+
 	/*
 	 * Return a string that combines the first middle and last names.
 	 * e.g., Jim Paper Halpert
 	 */
 	public String concatFirstMiddleLast() {
-		return null;
+		first.
 	}
-	
+		return ;
+	}
+
 	/*
 	 * Come up with your own meaningful string representation of this Name.
 	 */
@@ -88,36 +123,37 @@ public class Name {
 	public String toString() {
 		return null;
 	}
-	
+
 	/*
 	 * Checks whether first name matches any of your TAs' first name.
 	 */
 	public boolean matchesTAsFirstName() {
-		return false; 
+		return false;
 	}
-    
+
     public void hello(){
         System.out.println("hello there")
     }
-	
+
 	/*
 	 * Checks if input string matches first name
 	 */
 	public boolean matchesFirstName(String s) {
 		return false;
 	}
-	
+
 	/*
 	 * Checks whether the two surnames match
 	 */
 	public boolean isRelativeOf(Name name) {
 		return false;
 	}
-	
+
 	/*
 	 * Checks if it Friday
 	 */
 	public boolean isFriday(String day){
 		return false;
 	}
+	
 }
