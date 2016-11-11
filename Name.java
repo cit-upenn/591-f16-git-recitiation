@@ -76,7 +76,7 @@ public class Name {
 	/*
 	 * Come up with your own meaningful string representation of this Name.
 	 */
-	@Override
+	
 	public String toString() {
 		return null;
 	}
