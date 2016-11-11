@@ -5,6 +5,7 @@
  */
 public class Name {
 	
+    private String title;
 	private String first;
 	private String middle;
 	private String paternal;
@@ -26,7 +27,7 @@ public class Name {
 	}
 
 	public String getTitle() {
-		return null;
+		return title;
 	}
 
 	public int getValue() {
