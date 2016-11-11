@@ -47,6 +47,8 @@
 
 ## Class Discussion
 
+I think it’s better to use a branch. Less messy.
+
 [10 min]
 
 ---------
