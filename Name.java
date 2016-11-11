@@ -30,7 +30,7 @@ public class Name {
 	}
 
 	public int getValue() {
-		return null;	
+		return 0;	
 	}
 
 	public String getFirst() {
